@@ -1,0 +1,52 @@
+html {
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+/* top banner*/
+
+.fixedbanner {
+  position: fixed;
+  display: flex;
+  background-color: black;
+  width: 960px;
+  margin-bottom: 9rem;
+}
+
+.fixedbanner h1 {
+  display: flex;
+  color: white;
+  font-size: 1rem;
+  padding-top: 0.66rem;
+  padding-top: 0.66rem;
+}
+
+.fixedbanner img {
+  display: flex;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+.secondbanner {
+  background-image: url(./images/moto.jpeg);
+}
+
+.textblock {
+  display: flex;
+  background-color: black;
+  border: 5px solid green;
+  width: 20rem;
+}
+
+.textblock h1 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+}
+
+.textblock h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
