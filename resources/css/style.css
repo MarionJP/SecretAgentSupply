@@ -3,20 +3,22 @@ html {
   font-size: 18px;
 }
 
-.sitecontainer {
-  width: 960px;
-  border: 2px solid blue;
-}
-
 /* top banner*/
-
 .fixedbanner {
   position: fixed;
   display: flex;
   background-color: black;
-  width: 960px;
-  height: 2.32rem;
+  padding-top: 0.66rem;
+  padding-bottom: 0.66rem;
   align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  justify-content: center;
+}
+
+.bannercontainer {
+  display: flex;
+  width: 960px;
 }
 
 .fixedbanner h1 {
@@ -33,13 +35,17 @@ html {
 }
 
 .secondbanner {
-  margin-top: 2.32rem;
+  justify-content: center;
   display: flex;
   height: 25rem;
   background-size: cover;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
 }
 
+.blockcontainer {
+  display: flex;
+  width: 960px;
+}
 .textblock {
   display: flex;
   background-color: black;
@@ -66,17 +72,22 @@ html {
 .thirdbanner {
   display: flex;
   background-color: firebrick;
-  justify-content: space-between;
+  justify-content: center;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   color: white;
+}
+
+.list {
+  display: flex;
+  width: 960px;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .container {
   display: block;
-  border: 1px solid green;
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
 }
 
@@ -95,48 +106,76 @@ html {
 }
 
 .box p {
+  display: flex;
   color: white;
   background-color: black;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 .box img {
   display: flex;
   height: 9rem;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding: 2rem;
   justify-content: center;
   align-items: center;
 }
 
 .details {
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  flex-direction: row;
+}
+
+.subdetails {
   display: flex;
-  border: 3px solid yellow;
-  color: white;
+  width: 960px;
   justify-content: space-between;
 }
 
-.location {
-  background-color: black;
-  margin-top: 3rem;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  width: 35%;
-}
-
-.hours {
-  background-color: black;
-  margin-top: 3rem;
-  padding-left: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  width: 35%;
-}
-
-.items {
+.section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  width: 35%;
+}
+
+.section p {
+  color: black;
+}
+
+.location p{
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.hours p{
+  background-color: black;
+  color: white;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.footer {
+  display: flex;
+  background-color: black;
+  height: 5rem;
+  color: white;
+  text-align: left;
+  justify-content: center;
+}
+
+.footertext {
+  display: flex;
+  margin-top: 2.25rem;
+  width: 960px;
 }
