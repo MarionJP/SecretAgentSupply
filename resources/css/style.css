@@ -3,6 +3,11 @@ html {
   font-size: 18px;
 }
 
+.sitecontainer {
+  width: 960px;
+  border: 2px solid blue;
+}
+
 /* top banner*/
 
 .fixedbanner {
@@ -10,15 +15,14 @@ html {
   display: flex;
   background-color: black;
   width: 960px;
-  margin-bottom: 9rem;
+  height: 2.32rem;
+  align-items: center;
 }
 
 .fixedbanner h1 {
   display: flex;
   color: white;
   font-size: 1rem;
-  padding-top: 0.66rem;
-  padding-top: 0.66rem;
 }
 
 .fixedbanner img {
@@ -29,24 +33,110 @@ html {
 }
 
 .secondbanner {
-  background-image: url(./images/moto.jpeg);
+  margin-top: 2.32rem;
+  display: flex;
+  height: 25rem;
+  background-size: cover;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
 }
 
 .textblock {
   display: flex;
   background-color: black;
-  border: 5px solid green;
   width: 20rem;
+  height: 9.25rem;
+  margin-top: 9rem;
+  flex-direction: column;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-weight: bold;
+  color: white;
 }
 
 .textblock h1 {
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
   font-size: 1rem;
-  font-weight: bold;
-  color: white;
 }
 
 .textblock h2 {
   font-size: 2rem;
-  font-weight: bold;
+}
+
+.thirdbanner {
+  display: flex;
+  background-color: firebrick;
+  justify-content: space-between;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
   color: white;
+  flex-direction: row;
+}
+
+.container {
+  display: block;
+  border: 1px solid green;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.boxcontainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.box {
+  display: flex;
+  border: 4px solid black;
+  width: 30%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.box p {
+  color: white;
+  background-color: black;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+}
+
+.box img {
+  display: flex;
+  height: 9rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.details {
+  display: flex;
+  border: 3px solid yellow;
+  color: white;
+  justify-content: space-between;
+}
+
+.location {
+  background-color: black;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 35%;
+}
+
+.hours {
+  background-color: black;
+  margin-top: 3rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 35%;
+}
+
+.items {
+  display: flex;
+  flex-direction: row;
 }
