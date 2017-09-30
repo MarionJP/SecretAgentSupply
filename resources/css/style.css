@@ -179,3 +179,21 @@ html {
   margin-top: 2.25rem;
   width: 960px;
 }
+
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
+  }
+
+  .box {
+    width: 47%;
+  }
+
+  .thirdbanner {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  
+}
